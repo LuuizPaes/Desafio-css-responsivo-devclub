@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    
+    margin: 47px 0 0 42px;
+
+}
+
+.link-header {
+    width: 87px;
+    height: 20px;
+    margin-right: 32px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    cursor: pointer;
+}
+
+.button-header {
+    background: #6fbf44;
+    border: 1px solid #4CB538;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+    width: 493px;
+
+}
+
+
+h1 {
+    
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+    letter-spacing: 0.596154px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4b505a;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.lear-more-section {
+    
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+.image-logo {
+    margin-top: 100px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+.button-header:hover {
+    opacity: 0.4;
+}
+
+.button-header:active {
+    opacity: 0.8;
+}
+
+.lear-more-section:hover {
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 560px ) {
+    header a {
+        display: none;
+    }
+
+    .button-header {
+        width: 91px;
+        height: 31px;
+        position: absolute;
+        right: 20px;
+        
+    }
+
+    img {
+        position: absolute;
+        width: auto;
+        height: 288px;
+        margin: 490px 30px 22px 30px;
+        bottom: 0;
+        right: 1px;
+
+
+    }
+
+    section {
+        display: inline;
+        align-items: center;
+    }
+
+    h1 {
+        width: 278px;
+        height: 60px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.596154px;
+        margin: 100px 55px 0px 55px;
+        width: auto;
+        text-align: center;
+        height: 60px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        width: auto;
+        text-align: center;
+        margin: 26px 43px 60px 43px;
+    }
+
+    .lear-more-section {
+        display: block;
+        text-align: center;
+        
+    }
+
+    
+
+    
+
+    
+
+    
+
+
+}
